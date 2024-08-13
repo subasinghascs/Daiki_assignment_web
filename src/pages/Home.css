@@ -1,0 +1,93 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-image 1s ease-in-out; 
+}
+
+.text-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay h1,
+.text-overlay p {
+    margin: 0;
+}
+
+.intro-section {
+    margin: 0.8%;
+    text-align: center; 
+    padding: 20px;
+}
+
+.intro-section p {
+    font-style: italic; /* Italicize the paragraph text */
+}
+button {
+    background-color: #2596be; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #166a88;
+}
+
+.student_engineers{
+    margin: 0.5%;
+    padding: 20px;
+    background-color: #E5E4E2;
+    border-radius: 5px; 
+}
+
+#requirment{
+    margin-left: 0.8%;
+    padding: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    padding: 20px
+}
+
+.content-image {
+    width: 600px; 
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Center the videos horizontally */
+    gap: 20px; /* Add space between the videos */
+    padding: 30px;
+    background-color: #E5E4E2;
+    border-radius: 5px;
+    margin-left: 0.8%;
+}
+
+iframe {
+    width: 450px; 
+    height: 250px; 
+}

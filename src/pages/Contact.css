@@ -1,0 +1,74 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    background-color: #ccc;
+    padding: 10%;
+    border-radius: 8%;
+
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #2596be; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2596be;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    height: 30%;
+    color: white; /* Text color on the background image */
+}
+
+.contact_1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+.map-container iframe {
+    width: 80%; 
+    height: 350px;
+    border: 0;
+    margin-left: 10%;
+}

@@ -1,0 +1,52 @@
+nav {
+    background-color: 	#E5E4E2; /* Background color of the nav bar */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    display: flex; /* Display nav items in a row */
+    justify-content: space-between; /* Space items between */
+    align-items: center; /* Center align items vertically */
+    padding: 1% 8%; /* Add padding to the sides */
+}
+
+nav .logo {
+    flex: 1; /* Take up available space */
+}
+
+nav .logo img {
+    height: 40px; /* Adjust height as needed */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items in a row */
+    align-items: center; /* Align items vertically */
+}
+
+nav ul li {
+    margin: 0; /* Remove margin between items */
+}
+
+nav ul li a {
+    padding: 10px 20px; /* Add padding to each item */
+    color:#FFFF; /* Text color */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Make the link act like a button */
+    background-color:#D3D3D3; /* Background color of the button #F9F6EE	*/
+    border: 0.1px; /* Remove default border */
+    border-color:#2596be ;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-left: 10px; /* Space between buttons */
+}
+
+nav ul li a:hover {
+    background-color: #C0C0C0; /* Change background color on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+nav ul li a.active {
+    background-color: #2596be; /* Color for active button */
+    color: #FFF; /* Text color for active button */
+}

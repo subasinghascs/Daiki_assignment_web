@@ -1,0 +1,78 @@
+.background-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.team-member {
+    margin: 10px;
+    padding: 0.5%;
+    text-align: center;
+    width: 22%; 
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+    border-radius: 15%;
+    box-shadow: 50%;
+    scrollbar-darkshadow-color: antiquewhite;
+}
+
+.team-member-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin: auto; 
+    display: block; 
+}
+
+.about_contatent{
+    margin-left: 10%;
+}
+
+.topic1{
+    margin: 0.8%;
+    text-align: center; 
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    text-align: center;
+}
+
+.content-image {
+    width: 800px; 
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3%;
+}
+
+.intro-section {
+    margin: 0.8%;
+    text-align: center; 
+    padding: 20px;
+}
+
+.intro-section p {
+    font-style: italic; /* Italicize the paragraph text */
+}
